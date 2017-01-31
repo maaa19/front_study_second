@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>braineer freelance</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/bootstrap-flex.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <header class="l-header">
+      <div class="l-content">
+        <div class="l-header--wide l-header--transparent l-content">
+          <div class="row flex-items-xs-between flex-items-xs-middle">
+            <p class="l-header--wide__logo">
+              <a href="#">
+                <img class="l-header--wide__logoImg" src="images/braineer_logo_01.png" alt="">
+              </a>
+            </p>
+            <nav class="l-header--wide__menu">
+              <ul class="l-header--wide__menuList row flex-items-md-right">
+                <li class="l-header--wide__menuItem"><a href="#">案件を探す</a></li>
+                <li class="l-header--wide__menuItem"><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                <li class="l-header--wide__menuItem"><a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+                <li class="l-header--wide__menuItem l-header--wide__menuLastItem">
+                  <a href="#">新規登録</a>
+                  <span class="l-header--wide__menuSeparater">/</span>
+                  <a href="#">ログイン</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="l-header--narrow">
+          <div class="row flex-items-xs-between flex-items-xs-middle">
+            <p class="l-header--narrow__logo">
+              <a href="#">
+                <img class="l-header--narrow__logoImg" src="images/braineer_logo_01.png" alt="">
+              </a>
+            </p>
+            <nav class="l-header--narrow__menu flex-items-xs-middle">
+              <ul class="l-header--narrow__menuList row flex-items-md-right">
+                <li class="l-header--narrow__menuItem"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                <li class="l-header--narrow__menuItem"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="p-jumbotron">
+      <div class="p-jumbotron--wide">
+        <video class="p-jumbotron__video" src="https://d1sa3dvptzf97e.cloudfront.net/free/material/ITRP.mp4" autoplay loop></video>
+        <div class="p-jumbotron--wide__title l-content">
+          <img class="p-jumbotron--wide__titleLogo" src="images/braineer_logo_01.png" alt="braineer freelance" />
+          <p class="p-jumbotron--wide__titleSlogan">フリーランスエンジニア・クリエイターのお仕事探し</p>
+          <div class="p-jumbotron--wide__registe">
+            <button class="c-btn c-btn--register c-btn--registerFb" type="button" name="button">facebookではじめる</button>
+            <button class="c-btn c-btn--register c-btn--registerMail" type="button" name="button">Emailではじめる</button>
+          </div>
+        </div>
+      </div>
+      <div class="p-jumbotron--narrow">
+        <img class="p-jumbotron__image" src="images/freelance_top_1.jpg">
+        <div class="p-jumbotron--narrow__title">
+          <img class="p-jumbotron--narrow__titleLogo" src="images/braineer_logo_02.png" alt="braineer freelance" />
+          <p class="p-jumbotron--narrow__titleSlogan">フリーランスエンジニア・クリエイターの<br>お仕事探し</p>
+          <div class="p-jumbotron--narrow__register row flex-items-xs-around">
+            <button class="c-btn c-btn--register c-btn--registerFb" type="button" name="button">facebookではじめる</button>
+            <button class="c-btn c-btn--register c-btn--registerMail" type="button" name="button">Emailではじめる</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-nav">
+      <div class="l-content">
+        <ul class="p-nav__menuList row flex-items-md-center">
+          <li class="p-nav__menuItem p-nav__menuItemTop"><a href="#">案件を探す</a></li>
+          <li class="p-nav__menuItem p-nav__menuItemTop"><a href="#">おすすめ案件</a></li>
+          <li class="p-nav__menuItem p-nav__menuItemTop"><a href="#">コンテンツ</a></li>
+          <li class="p-nav__menuItem p-nav__menuItemBottom"><a href="#">エージェント紹介</a></li>
+          <li class="p-nav__menuItem p-nav__menuItemBottom"><a href="#">お客様の声</a></li>
+        </ul>
+      </div>
+    </div>
+    <main class="l-main">
+      <div class="c-bgcolor--dark">
+        <div class="l-content l-main__section">
+          <h2 class="c-title c-title--large">案件を探す</h2>
+          <div class="p-search c-bgcolor--light">
+            <ul class="p-search__menuList row flex-items-md-around flex-items-md-middle">
+              <li class="p-search__menuItem p-search__menuItemTop"><a href="#"><img class="p-search__menuItemImg" src="images/search_area.gif" alt=""><p class="">エリアで探す</p></a></li>
+              <li class="p-search__menuItem p-search__menuItemTop"><a href="#"><img class="p-search__menuItemImg" src="images/search_skill.gif" alt=""><p class="">スキルで探す</p></a></li>
+              <li class="p-search__menuItem p-search__menuItemTop"><a href="#"><img class="p-search__menuItemImg" src="images/search_fee.gif" alt=""><p class="">単金で探す</p></a></li>
+              <li class="p-search__menuItem p-search__menuItemBottom"><a href="#"><img class="p-search__menuItemImg" src="images/search_type.gif" alt=""><p class="">業種で探す</p></a></li>
+              <li class="p-search__menuItem p-search__menuItemBottom"><a href="#"><img class="p-search__menuItemImg" src="images/search_job.gif" alt=""><p class="">職種で探す</p></a></li>
+            </ul>
+            <div class="p-searchBox row flex-items-md-center">
+              <input class="p-searchBox__input" type="search">
+              <button class="p-searchBox__btn" type="submit">検索</button>
+            </div>
+            <div class="p-search__skill">
+              <h2 class="c-title c-title--md">注目キーワード</h3>
+              <ul class="c-skill row flex-items-md-left">
+                <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">PHP</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">C#</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">Photoshop</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">Photoshop</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">C#</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">C#</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">Photoshop</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">PHP</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">PHP</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">PHP</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">C#</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">Photoshop</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">PHP</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">C#</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">Photoshop</a></li>
+                <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="c-bgcolor--light">
+        <div class="l-content l-main__section">
+          <h2 class="c-title c-title--large">新着案件</h2>
+          <div class="">
+            <div class="slider">
+              <div class="c-panel">
+                <div class="c-panel__top">
+                  <img class="c-img" src="images/freelance_creator_1.jpg" alt="">
+                  <div class="c-panel__topDetail">
+                    <p class="c-panel__date">更新日：<span>2016年12月26日</span>&nbsp;<i class="fa fa-eye" aria-hidden="true">&nbsp;</i>3</p>
+                    <span class="c-panel__title">人気スマホゲームのUnityエンジニア</span>
+                    <div class="c-match">
+                      <span class="c-match__title">マッチ度</span>
+                      <span class="c-match__num">22</span>
+                      <span class="c-match__per">％</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-panel__bottom">
+                  <ul class="c-skill row flex-items-md-left">
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">PHP</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">C#</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Photoshop</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                  </ul>
+                  <div class="c-panel__condition">
+                    <ul class="c-panel__conditionList">
+                      <li class="c-panel__conditionItem"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp;渋谷</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-jpy fa-fw" aria-hidden="true"></i>&nbsp;75万円〜</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i>&nbsp;IT・通信（ゲーム）</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-laptop fa-fw" aria-hidden="true"></i>&nbsp;サーバーサイドエンジニア</li>
+                    </ul>
+                  </div>
+                  <button class="c-btn c-btn--large c-btn--favorite">気になる</button>
+                </div>
+              </div>
+              <div class="c-panel">
+                <div class="c-panel__top">
+                  <img class="c-img" src="images/freelance_creator_1.jpg" alt="">
+                  <div class="c-panel__topDetail">
+                    <p class="c-panel__date">更新日：<span>2016年12月26日</span>&nbsp;<i class="fa fa-eye" aria-hidden="true">&nbsp;</i>3</p>
+                    <span class="c-panel__title">人気スマホゲームのUnityエンジニア</span>
+                    <div class="c-match">
+                      <span class="c-match__title">マッチ度</span>
+                      <span class="c-match__num">22</span>
+                      <span class="c-match__per">％</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-panel__bottom">
+                  <ul class="c-skill row flex-items-md-left">
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">PHP</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">C#</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Photoshop</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                  </ul>
+                  <div class="c-panel__condition">
+                    <ul class="c-panel__conditionList">
+                      <li class="c-panel__conditionItem"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp;渋谷</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-jpy fa-fw" aria-hidden="true"></i>&nbsp;75万円〜</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i>&nbsp;IT・通信（ゲーム）</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-laptop fa-fw" aria-hidden="true"></i>&nbsp;サーバーサイドエンジニア</li>
+                    </ul>
+                  </div>
+                  <button class="c-btn c-btn--large c-btn--favorite">気になる</button>
+                </div>
+              </div>
+              <div class="c-panel">
+                <div class="c-panel__top">
+                  <img class="c-img" src="images/freelance_creator_1.jpg" alt="">
+                  <div class="c-panel__topDetail">
+                    <p class="c-panel__date">更新日：<span>2016年12月26日</span>&nbsp;<i class="fa fa-eye" aria-hidden="true">&nbsp;</i>3</p>
+                    <span class="c-panel__title">人気スマホゲームのUnityエンジニア</span>
+                    <div class="c-match">
+                      <span class="c-match__title">マッチ度</span>
+                      <span class="c-match__num">22</span>
+                      <span class="c-match__per">％</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-panel__bottom">
+                  <ul class="c-skill row flex-items-md-left">
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">PHP</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">C#</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Photoshop</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                  </ul>
+                  <div class="c-panel__condition">
+                    <ul class="c-panel__conditionList">
+                      <li class="c-panel__conditionItem"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp;渋谷</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-jpy fa-fw" aria-hidden="true"></i>&nbsp;75万円〜</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i>&nbsp;IT・通信（ゲーム）</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-laptop fa-fw" aria-hidden="true"></i>&nbsp;サーバーサイドエンジニア</li>
+                    </ul>
+                  </div>
+                  <button class="c-btn c-btn--large c-btn--favorite">気になる</button>
+                </div>
+              </div>
+              <div class="c-panel">
+                <div class="c-panel__top">
+                  <img class="c-img" src="images/freelance_creator_1.jpg" alt="">
+                  <div class="c-panel__topDetail">
+                    <p class="c-panel__date">更新日：<span>2016年12月26日</span>&nbsp;<i class="fa fa-eye" aria-hidden="true">&nbsp;</i>3</p>
+                    <span class="c-panel__title">人気スマホゲームのUnityエンジニア</span>
+                    <div class="c-match">
+                      <span class="c-match__title">マッチ度</span>
+                      <span class="c-match__num">22</span>
+                      <span class="c-match__per">％</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-panel__bottom">
+                  <ul class="c-skill row flex-items-md-left">
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">PHP</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">C#</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Photoshop</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                  </ul>
+                  <div class="c-panel__condition">
+                    <ul class="c-panel__conditionList">
+                      <li class="c-panel__conditionItem"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp;渋谷</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-jpy fa-fw" aria-hidden="true"></i>&nbsp;75万円〜</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i>&nbsp;IT・通信（ゲーム）</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-laptop fa-fw" aria-hidden="true"></i>&nbsp;サーバーサイドエンジニア</li>
+                    </ul>
+                  </div>
+                  <button class="c-btn c-btn--large c-btn--favorite">気になる</button>
+                </div>
+              </div>
+              <div class="c-panel">
+                <div class="c-panel__top">
+                  <img class="c-img" src="images/freelance_creator_1.jpg" alt="">
+                  <div class="c-panel__topDetail">
+                    <p class="c-panel__date">更新日：<span>2016年12月26日</span>&nbsp;<i class="fa fa-eye" aria-hidden="true">&nbsp;</i>3</p>
+                    <span class="c-panel__title">人気スマホゲームのUnityエンジニア</span>
+                    <div class="c-match">
+                      <span class="c-match__title">マッチ度</span>
+                      <span class="c-match__num">22</span>
+                      <span class="c-match__per">％</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-panel__bottom">
+                  <ul class="c-skill row flex-items-md-left">
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">PHP</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">C#</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Photoshop</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                  </ul>
+                  <div class="c-panel__condition">
+                    <ul class="c-panel__conditionList">
+                      <li class="c-panel__conditionItem"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp;渋谷</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-jpy fa-fw" aria-hidden="true"></i>&nbsp;75万円〜</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i>&nbsp;IT・通信（ゲーム）</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-laptop fa-fw" aria-hidden="true"></i>&nbsp;サーバーサイドエンジニア</li>
+                    </ul>
+                  </div>
+                  <button class="c-btn c-btn--large c-btn--favorite">気になる</button>
+                </div>
+              </div>
+            </div>
+            <button class="c-btn c-btn--more">すべての案件へ</button>
+          </div>
+        </div>
+      </div>
+      <div class="c-bgcolor--dark">
+        <div class="l-content l-main__section">
+          <h2 class="c-title c-title--large">おすすめ案件</h2>
+          <div class="">
+            <div class="slider">
+              <div class="c-panel">
+                <div class="c-panel__top">
+                  <img class="c-img" src="images/freelance_creator_1.jpg" alt="">
+                  <div class="c-panel__topDetail">
+                    <p class="c-panel__date">更新日：<span>2016年12月26日</span>&nbsp;<i class="fa fa-eye" aria-hidden="true">&nbsp;</i>3</p>
+                    <span class="c-panel__title">人気スマホゲームのUnityエンジニア</span>
+                    <div class="c-match">
+                      <span class="c-match__title">マッチ度</span>
+                      <span class="c-match__num">22</span>
+                      <span class="c-match__per">％</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-panel__bottom">
+                  <ul class="c-skill row flex-items-md-left">
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">PHP</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">C#</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Photoshop</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                  </ul>
+                  <div class="c-panel__condition">
+                    <ul class="c-panel__conditionList">
+                      <li class="c-panel__conditionItem"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp;渋谷</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-jpy fa-fw" aria-hidden="true"></i>&nbsp;75万円〜</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i>&nbsp;IT・通信（ゲーム）</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-laptop fa-fw" aria-hidden="true"></i>&nbsp;サーバーサイドエンジニア</li>
+                    </ul>
+                  </div>
+                  <button class="c-btn c-btn--large c-btn--favorite">気になる</button>
+                </div>
+              </div>
+              <div class="c-panel">
+                <div class="c-panel__top">
+                  <img class="c-img" src="images/freelance_creator_1.jpg" alt="">
+                  <div class="c-panel__topDetail">
+                    <p class="c-panel__date">更新日：<span>2016年12月26日</span>&nbsp;<i class="fa fa-eye" aria-hidden="true">&nbsp;</i>3</p>
+                    <span class="c-panel__title">人気スマホゲームのUnityエンジニア</span>
+                    <div class="c-match">
+                      <span class="c-match__title">マッチ度</span>
+                      <span class="c-match__num">22</span>
+                      <span class="c-match__per">％</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-panel__bottom">
+                  <ul class="c-skill row flex-items-md-left">
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">PHP</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">C#</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Photoshop</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                  </ul>
+                  <div class="c-panel__condition">
+                    <ul class="c-panel__conditionList">
+                      <li class="c-panel__conditionItem"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp;渋谷</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-jpy fa-fw" aria-hidden="true"></i>&nbsp;75万円〜</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i>&nbsp;IT・通信（ゲーム）</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-laptop fa-fw" aria-hidden="true"></i>&nbsp;サーバーサイドエンジニア</li>
+                    </ul>
+                  </div>
+                  <button class="c-btn c-btn--large c-btn--favorite">気になる</button>
+                </div>
+              </div>
+              <div class="c-panel">
+                <div class="c-panel__top">
+                  <img class="c-img" src="images/freelance_creator_1.jpg" alt="">
+                  <div class="c-panel__topDetail">
+                    <p class="c-panel__date">更新日：<span>2016年12月26日</span>&nbsp;<i class="fa fa-eye" aria-hidden="true">&nbsp;</i>3</p>
+                    <span class="c-panel__title">人気スマホゲームのUnityエンジニア</span>
+                    <div class="c-match">
+                      <span class="c-match__title">マッチ度</span>
+                      <span class="c-match__num">22</span>
+                      <span class="c-match__per">％</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-panel__bottom">
+                  <ul class="c-skill row flex-items-md-left">
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">PHP</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">C#</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Photoshop</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                  </ul>
+                  <div class="c-panel__condition">
+                    <ul class="c-panel__conditionList">
+                      <li class="c-panel__conditionItem"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp;渋谷</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-jpy fa-fw" aria-hidden="true"></i>&nbsp;75万円〜</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i>&nbsp;IT・通信（ゲーム）</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-laptop fa-fw" aria-hidden="true"></i>&nbsp;サーバーサイドエンジニア</li>
+                    </ul>
+                  </div>
+                  <button class="c-btn c-btn--large c-btn--favorite">気になる</button>
+                </div>
+              </div>
+              <div class="c-panel">
+                <div class="c-panel__top">
+                  <img class="c-img" src="images/freelance_creator_1.jpg" alt="">
+                  <div class="c-panel__topDetail">
+                    <p class="c-panel__date">更新日：<span>2016年12月26日</span>&nbsp;<i class="fa fa-eye" aria-hidden="true">&nbsp;</i>3</p>
+                    <span class="c-panel__title">人気スマホゲームのUnityエンジニア</span>
+                    <div class="c-match">
+                      <span class="c-match__title">マッチ度</span>
+                      <span class="c-match__num">22</span>
+                      <span class="c-match__per">％</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-panel__bottom">
+                  <ul class="c-skill row flex-items-md-left">
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">PHP</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">C#</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Photoshop</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                  </ul>
+                  <div class="c-panel__condition">
+                    <ul class="c-panel__conditionList">
+                      <li class="c-panel__conditionItem"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp;渋谷</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-jpy fa-fw" aria-hidden="true"></i>&nbsp;75万円〜</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i>&nbsp;IT・通信（ゲーム）</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-laptop fa-fw" aria-hidden="true"></i>&nbsp;サーバーサイドエンジニア</li>
+                    </ul>
+                  </div>
+                  <button class="c-btn c-btn--large c-btn--favorite">気になる</button>
+                </div>
+              </div>
+              <div class="c-panel">
+                <div class="c-panel__top">
+                  <img class="c-img" src="images/freelance_creator_1.jpg" alt="">
+                  <div class="c-panel__topDetail">
+                    <p class="c-panel__date">更新日：<span>2016年12月26日</span>&nbsp;<i class="fa fa-eye" aria-hidden="true">&nbsp;</i>3</p>
+                    <span class="c-panel__title">人気スマホゲームのUnityエンジニア</span>
+                    <div class="c-match">
+                      <span class="c-match__title">マッチ度</span>
+                      <span class="c-match__num">22</span>
+                      <span class="c-match__per">％</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-panel__bottom">
+                  <ul class="c-skill row flex-items-md-left">
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">PHP</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">C#</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Photoshop</a></li>
+                    <li class="c-skillItem c-text-md"><a href="#">Java</a></li>
+                  </ul>
+                  <div class="c-panel__condition">
+                    <ul class="c-panel__conditionList">
+                      <li class="c-panel__conditionItem"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp;渋谷</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-jpy fa-fw" aria-hidden="true"></i>&nbsp;75万円〜</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i>&nbsp;IT・通信（ゲーム）</li>
+                      <li class="c-panel__conditionItem"><i class="fa fa-laptop fa-fw" aria-hidden="true"></i>&nbsp;サーバーサイドエンジニア</li>
+                    </ul>
+                  </div>
+                  <button class="c-btn c-btn--large c-btn--favorite">気になる</button>
+                </div>
+              </div>
+            </div>
+            <button class="c-btn c-btn--more">すべての案件へ</button>
+          </div>
+        </div>
+      </div>
+      <div class="c-bgcolor--light">
+        <div class="l-content l-main__section">
+          <h2 class="c-title c-title--large">特集</h2>
+          <div class="slider">
+            <div class="c-panel">
+              <div class="c-panel--feature">
+                <img class="c-img" src="images/freelance_feature_1.jpg" alt="">
+                <span class="c-panel--featureTitle">Webデザイナー案件</span>
+              </div>
+            </div>
+            <div class="c-panel">
+              <div class="c-panel--feature">
+                <img class="c-img" src="images/freelance_feature_2.jpg" alt="">
+                <span class="c-panel--featureTitle">Webアプリエンジニア案件</span>
+              </div>
+            </div>
+            <div class="c-panel">
+              <div class="c-panel--feature">
+                <img class="c-img" src="images/freelance_feature_1.jpg" alt="">
+                <span class="c-panel--featureTitle">Android</span>
+              </div>
+            </div>
+            <div class="c-panel">
+              <div class="c-panel--feature">
+                <img class="c-img" src="images/freelance_feature_2.jpg" alt="">
+                <span class="c-panel--featureTitle">iOS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="l-footer">
+      <div class="l-footer--wide l-content">
+        <div class="l-footer__menuTop row flex-items-md-between">
+          <ul class="l-footer__menuTopList">
+            <li class="l-footer__menuTopItem"><a href="#"><a href="#">braineerとは？</a></a></li>
+          </ul>
+          <ul class="l-footer__menuTopList">
+            <li class="l-footer__menuTopItem"><a href="toFirstUser.html">案件を探す</a></a></li>
+            <li class="l-footer__menuTopItem"><a href="#">新着案件</a></li>
+            <li class="l-footer__menuTopItem"><a href="#">おすすめ案件</a></li>
+          </ul>
+          <ul class="l-footer__menuTopList">
+            <li class="l-footer__menuTopItem"><a href="toFirstUser.html">エージェント紹介</a></a></li>
+            <li class="l-footer__menuTopItem"><a href="#">お客様の声</a></li>
+          </ul>
+          <ul class="l-footer__menuTopList">
+            <li class="l-footer__menuTopItem"><a href="#">メッセージ</a></li>
+            <li class="l-footer__menuTopItem"><a href="#">気になる</a></li>
+            <li class="l-footer__menuTopItem"><a href="#">エントリー</a></li>
+            <li class="l-footer__menuTopItem"><a href="#">閲覧履歴</a></li>
+            <li class="l-footer__menuTopItem"><a href="#">各種設定</a></li>
+          </ul>
+          <ul class="l-footer__menuTopList">
+            <li class="l-footer__menuTopItem"><a href="#">ニュース・コラム</a></li>
+            <li class="l-footer__menuTopItem"><a href="#">面談対策</a></li>
+            <li class="l-footer__menuTopItem"><a href="#">キャリア診断</a></li>
+            <li class="l-footer__menuTopItem"><a href="#">IT用語集</a></li>
+            <li class="l-footer__menuTopItem"><a href="#">確定申告代行</a></li>
+          </ul>
+        </div>
+        <p class="l-footer__logo">
+          <a href="#">
+            <img class="l-footer__logoImg" src="images/braineer_logo_01.png" alt="braineer freelance" />
+          </a>
+        </p>
+        <ul class="l-footer__menuBottomList row flex-items-md-center">
+          <li class="l-footer__menuBottomItem"><a href="#">サイトマップ</a>|</li>
+          <li class="l-footer__menuBottomItem"><a href="#">会社概要</a>|</li>
+          <li class="l-footer__menuBottomItem"><a href="#">利用規約</a>|</li>
+          <li class="l-footer__menuBottomItem"><a href="#">プライバシーポリシー</a>|</li>
+          <li class="l-footer__menuBottomItem"><a href="#">ヘルプ</a>|</li>
+          <li class="l-footer__menuBottomItem"><a href="#">お問い合わせ</a></li>
+        </ul>
+      </div>
+      <div class="l-footer--narrow">
+        <ul class="l-footer--narrow__menuTopList row">
+          <li class="l-footer--narrow__menuTopItem"><a href="#"><a href="#">braineerとは？</a></a></li>
+          <li class="l-footer--narrow__menuTopItem"><a href="toFirstUser.html">案件を探す</a></a></li>
+          <li class="l-footer--narrow__menuTopItem"><a href="#">新着案件</a></li>
+          <li class="l-footer--narrow__menuTopItem"><a href="#">おすすめ案件</a></li>
+          <li class="l-footer--narrow__menuTopItem"><a href="toFirstUser.html">エージェント紹介</a></a></li>
+          <li class="l-footer--narrow__menuTopItem"><a href="#">お客様の声</a></li>
+          <li class="l-footer--narrow__menuTopItem"><a href="#">メッセージ</a></li>
+          <li class="l-footer--narrow__menuTopItem"><a href="#">気になる</a></li>
+          <li class="l-footer--narrow__menuTopItem"><a href="#">エントリー</a></li>
+          <li class="l-footer--narrow__menuTopItem"><a href="#">閲覧履歴</a></li>
+          <li class="l-footer--narrow__menuTopItem"><a href="#">各種設定</a></li>
+          <li class="l-footer--narrow__menuTopItem"><a href="#">ニュース・コラム</a></li>
+          <li class="l-footer--narrow__menuTopItem"><a href="#">面談対策</a></li>
+          <li class="l-footer--narrow__menuTopItem"><a href="#">キャリア診断</a></li>
+          <li class="l-footer--narrow__menuTopItem"><a href="#">IT用語集</a></li>
+        </ul>
+        <div class="l-contnet">
+          <ul class="l-footer--narrow__menuBottomList row flex-items-xs-center">
+            <li class="l-footer__menuBottomItem"><a href="#">サイトマップ</a>|</li>
+            <li class="l-footer__menuBottomItem"><a href="#">会社概要</a>|</li>
+            <li class="l-footer__menuBottomItem"><a href="#">利用規約</a></a></li>
+          </ul>
+          <ul class="l-footer--narrow__menuBottomList row flex-items-xs-center">
+            <li class="l-footer__menuBottomItem"><a href="#">プライバシーポリシー</a>|</li>
+            <li class="l-footer__menuBottomItem"><a href="#">ヘルプ</a>|</li>
+            <li class="l-footer__menuBottomItem"><a href="#">お問い合わせ</a></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="l-content l-footer__link  row flex-items-md-center flex-items-md-middle">
+        <a href="#"><img class="l-footer__linkItem" src="images/footer_fb.gif" alt=""></a>
+        <a href="#"><img class="l-footer__linkItem"  src="images/footer_twi.gif" alt=""></a>
+        <a href="#"><img class="l-footer__linkItem"  src="images/footer_identity_white.png" alt=""></a>
+      </div>
+      <div class="l-content l-footer__copyright">
+        COPYRIGHT &copy;2016 IDENTITY.INC ALL RIGHTS RESERVED.
+      </div>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+    $(function() {
+      $('.slider').slick({
+        accessibility: true,
+        autoplay: false,
+        infinite: true,
+        dots:true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [{
+          breakpoint: 1050,
+          settings: {
+            accessibility: true,
+            autoplay: false,
+            slidesToShow: 2,
+            centerMode: true,
+            centerPadding: '5%',
+            arrows: false,
+          }
+        },{
+          breakpoint: 640,
+          settings: {
+            accessibility: true,
+            autoplay: false,
+            slidesToShow: 1,
+            centerMode: true,
+            centerPadding: '5%',
+            arrows: false,
+          }
+          }
+        ]
+      });
+    });
+    </script>
+    <script src="jquery.js"></script>
+    <!-- <script>
+    // $(function(){
+      $('.p-nav__menuItem a').hover(function(){
+        $(this).prepend('>');
+      });
+    // });
+
+    </script> -->
+  </body>
+
+</html>

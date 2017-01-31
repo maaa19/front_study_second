@@ -1,0 +1,23 @@
+.p-nav
+  background-color: #4eadd0
+  a
+    color: #fff
+  &__menu
+    &List
+      width: 100%
+      margin: 0
+    &Item
+      border-left: solid 1px #419fc1
+      padding: 15px 0
+      width: 20%
+      &:last-child
+        border-right: solid 1px #419fc1
+      &:hover
+        background-color: rgba(255,255,255,0.2)
+
+@media (max-width: 800px)
+  .p-nav__menuItem
+    &Top
+      width: 33.3333%
+    &Bottom
+      width: 50%

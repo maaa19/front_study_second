@@ -1,0 +1,56 @@
+.l-header
+  color: #fff
+  background-color: $themeColor
+  a
+    color: #fff
+    &:hover
+      opacity: 0.7
+  &--wide
+    z-index: 1
+    left: 0
+    right: 0
+    &__logo
+      width: 180px
+      &Img
+        width: 100%
+    &__menu
+      padding: 20px 0
+      &List
+        width: 100%
+        margin: 0
+      &Item
+        padding: 0 10px
+        &:last-child
+          padding: 0
+      &Separater
+        padding: 0 10px
+
+  &--narrow
+    display: none
+    &__logoImg
+      width: 170px
+    &__menu
+      padding: 10px 0
+      &List
+      &Item
+        font-size: 2rem
+        padding: 0 10px
+        &:last-child
+          padding: 0
+
+  &--transparent
+    background-color: transparent
+    position: absolute
+    // width: 980px
+    // margin: 0 auto
+
+
+
+@media (max-width: 768px)
+  .l-header
+    &--wide
+      display: none
+    &--transparent
+      display: none
+    &--narrow
+      display: block

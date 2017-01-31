@@ -1,0 +1,45 @@
+.p-search
+  padding: 40px
+  border: solid 1px #dadada
+  border-radius: 5px
+
+  &__menu
+    &Item
+      width: 20%
+      margin: 20px 0
+      border-right: solid 1px #dadada
+      &:last-child
+        border-right: none
+      &Img
+        padding: 5px 0
+      &:hover
+        color: $themeColor
+
+  &Box
+    height: 50px
+    width: 100%
+    margin: 0
+    &__input
+      width: 85%
+      height: 100%
+    &__btn
+      width: 15%
+      height: 100%
+      color: #fff
+      background-color: $themeColor
+      font-size: 2rem
+
+@media (max-width: $breakpointTab)
+  .p-search
+    padding: 2%
+    &__menu
+      &Item
+        border: none
+        &Top
+          width: 33.3333%
+        &Bottom
+          width: 50%
+    &Box
+      height: 45px
+      &__btn
+        font-size: 1.4rem

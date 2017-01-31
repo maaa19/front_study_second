@@ -1,0 +1,68 @@
+.l-footer
+  background-color: #4eadd0
+  color: #fff
+  a
+    color: #fff
+    &:hover
+      opacity: 0.7
+
+  &__menu
+    &Top
+      padding-top: 40px
+      &Item
+        padding: 10px 0
+
+    &Bottom
+      &List
+        padding-top: 20px
+      &Item
+        a
+          padding: 0 10px
+        &:last-child a
+          padding: none
+
+  &__logoImg
+    width: 260px
+    padding-top: 30px
+  &__linkItem
+    margin: 0 15px
+    padding-top: 30px
+  &__copyright
+    padding: 30px 0
+
+  &--narrow
+    display: none
+    &__menu
+      &Top
+        &List
+          width: 100%
+          text-align: left
+          margin-bottom: 20px
+        &Item
+          width: 50%
+          padding:
+            top: 10px
+            bottom: 10px
+            left: 20px
+          border-bottom: 1px solid #4aa4c5
+          margin: 5px 0
+          &:nth-child(even)
+            border-left: 1px solid #4aa4c5
+
+      &Bottom
+        &List
+          text-align: center
+
+
+
+
+@media (max-width: 768px)
+  .l-footer
+    &--wide
+      display: none
+    &--narrow
+      display: block
+    &__link
+      display: none
+    &__copyright
+      font-size: 1rem
